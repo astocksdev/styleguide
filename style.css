@@ -1,5 +1,50 @@
+body {
+    box-sizing: border-box;
+    margin: 5% 20%;
+}
+
 .swatch {
     border: solid gray 1px;
+}
+
+.blue {
+    color: white;
+    background-color: #26547c;
+    padding: 30px;
+    margin: 1px 3px 5px 6px;
+    width: 15%;
+    text-align: center;
+    display: inline-block;
+}
+
+.pink {
+    color: white;
+    background-color: #ef476f;
+    margin: 1px 3px 5px 6px;
+    padding: 30px;
+    width: 15%;
+    text-align: center;
+    display: inline-block;
+}
+
+.yellow {
+    color: black;
+    background-color: #ffd166;
+    margin: 1px 3px 5px 6px;
+    padding: 30px;
+    width: 15%;
+    text-align: center;
+    display: inline-block;
+}
+
+.green {
+    color: black;
+    background-color: #06d6a0;
+    margin: 1px 3px 5px 6px;
+    padding: 30px;
+    width: 15%;
+    text-align: center;
+    display: inline-block;
 }
 
 .fonts {
@@ -8,4 +53,66 @@
 
 .text {
     border: solid gray 1px;
+}
+
+.open {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.openIt {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+}
+
+.openBold .openH {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.roboto{
+    font-family: 'roboto', sans-serif;
+    font-weight: 300;
+}
+
+.robotoIt {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+}
+
+.robotoBold .robotoH{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.zenloop{
+    font-family: 'Zen Loop', cursive;
+    font-weight: 100;
+}
+
+.zenloopIt {
+    font-family: 'Zen Loop', cursive;
+    font-style: italic;
+}
+
+.zenloopBold .zenloopH{
+    font-family: 'Zen Loop', cursive;
+    font-weight: 700;
+}
+
+section {
+    padding: 1px 3px 5px 6px;
+    margin: 5px 0;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+    font-family: 'Zen Loop', cursive;
 }

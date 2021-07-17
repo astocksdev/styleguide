@@ -1,6 +1,24 @@
 body {
     box-sizing: border-box;
-    margin: 5% 20%;
+    margin: 0 20%;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+p {
+    font-family: 'Zen Loop', cursive;
+    font-weight: 400;
+    font-size: 14px;
 }
 
 .swatch {
@@ -76,12 +94,12 @@ body {
 }
 
 .robotoIt {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'roboto', sans-serif;
     font-style: italic;
 }
 
-.robotoBold .robotoH{
-    font-family: 'Open Sans', sans-serif;
+.robotoBold, .robotoH{
+    font-family: 'roboto', sans-serif;
     font-weight: 700;
 }
 
@@ -103,16 +121,4 @@ body {
 section {
     padding: 1px 3px 5px 6px;
     margin: 5px 0;
-}
-
-h1 {
-    font-family: 'Roboto', sans-serif;
-}
-
-h2 {
-    font-family: 'Open Sans', sans-serif;
-}
-
-h3 {
-    font-family: 'Zen Loop', cursive;
 }
